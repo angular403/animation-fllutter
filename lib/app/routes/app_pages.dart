@@ -1,3 +1,8 @@
+import 'package:animation/app/modules/home/views/a_align.dart';
+import 'package:animation/app/modules/home/views/a_avatarGlow.dart';
+import 'package:animation/app/modules/home/views/a_container.dart';
+import 'package:animation/app/modules/home/views/a_decoration.dart';
+import 'package:animation/app/modules/home/views/a_position.dart';
 import 'package:get/get.dart';
 
 import 'package:animation/app/modules/home/bindings/home_binding.dart';
@@ -13,7 +18,7 @@ class AppPages {
   static final routes = [
     GetPage(
       name: _Paths.HOME,
-      page: () => HomeView(),
+      page: () => AnimasiAvatar(),
       binding: HomeBinding(),
     ),
   ];

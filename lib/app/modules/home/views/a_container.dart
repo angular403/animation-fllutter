@@ -4,12 +4,12 @@
 
 // import '../controllers/home_controller.dart';
 
-// class HomeView extends GetView<HomeController> {
+// class AnimasiContainer extends GetView<HomeController> {
 //   @override
 //   Widget build(BuildContext context) {
 //     return Scaffold(
 //       appBar: AppBar(
-//         title: Text('HomeView'),
+//         title: Text('Animated Container'),
 //         centerTitle: true,
 //       ),
 //       body: Center(
@@ -23,7 +23,7 @@
 //               duration: Duration(seconds: 2),
 //               width: controller.selected.isFalse ? 200 : 350,
 //               height: controller.selected.isFalse ? 200 : 350,
-//               color: controller.selected.isFalse ? Colors.amber : Colors.blue,
+//               color: controller.selected.isFalse ? Colors.red : Colors.green,
 //             ),
 //           ),
 //         ),
