@@ -1,5 +1,6 @@
 import 'package:animation/app/modules/home/views/a_align.dart';
 import 'package:animation/app/modules/home/views/a_avatarGlow.dart';
+import 'package:animation/app/modules/home/views/a_caraousel.dart';
 import 'package:animation/app/modules/home/views/a_container.dart';
 import 'package:animation/app/modules/home/views/a_decoration.dart';
 import 'package:animation/app/modules/home/views/a_position.dart';
@@ -18,7 +19,7 @@ class AppPages {
   static final routes = [
     GetPage(
       name: _Paths.HOME,
-      page: () => AnimasiAvatar(),
+      page: () => AnimasiCaraousel(),
       binding: HomeBinding(),
     ),
   ];
